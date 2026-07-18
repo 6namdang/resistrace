@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Data (large, regenerable via the pipeline — do not commit)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Outputs (regenerable; keep small final CSVs if you want, ignore intermediates)
+outputs/*.png
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log
